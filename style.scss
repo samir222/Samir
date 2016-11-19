@@ -10,8 +10,7 @@
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
-/* BASE RULES */
-/**************/
+/* BASE RULES *//**************/
 
 html {
   font-size: 100%;
@@ -20,7 +19,7 @@ html {
 body {
 	background-image: url("http://cdn.wallpapersafari.com/65/72/sGJocu.jpg");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white; 
 }
 
 
@@ -39,7 +38,7 @@ body {
 }
 
 
-
+ 
 table, td {
 
     border: 2px solid black;
@@ -48,14 +47,14 @@ table, td {
 
     padding: 15px;
 
-    background-color: $black;
+    background-color: #15b58f;  
 
 	opacity: 1.0;
 
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #f24c4e;
   font-weight: bold;
 
   line-height: 1.7;
